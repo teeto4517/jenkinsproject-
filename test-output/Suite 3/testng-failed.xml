@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite 3]">
+  <test name="Test4(failed)">
+    <classes>
+      <class name="dev.payzone.test.Nassarawa_Invoice_test">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="Invoke_browser"/>
+        </methods>
+      </class> <!-- dev.payzone.test.Nassarawa_Invoice_test -->
+      <class name="idec.Registeranapplicant">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="Invoke_browser"/>
+        </methods>
+      </class> <!-- idec.Registeranapplicant -->
+      <class name="idec.Applicantvalidlogin">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="Invoke_browser"/>
+        </methods>
+      </class> <!-- idec.Applicantvalidlogin -->
+      <class name="idec.Reset_password">
+        <methods>
+          <include name="Invoke_browser"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- idec.Reset_password -->
+      <class name="idec.Scheduling_Offical_approval">
+        <methods>
+          <include name="Invoke_browser"/>
+          <include name="Scheduling_offical_Approval"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- idec.Scheduling_Offical_approval -->
+      <class name="idec.ApplicantInvalidlogin">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="Invoke_browser"/>
+        </methods>
+      </class> <!-- idec.ApplicantInvalidlogin -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Suite 3] -->

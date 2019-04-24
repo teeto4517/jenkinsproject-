@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test 1(failed)">
+    <classes>
+      <class name="Test.OsgofTest">
+        <methods>
+          <include name="Invoke_browser"/>
+          <include name="Osgof_Login"/>
+        </methods>
+      </class> <!-- Test.OsgofTest -->
+      <class name="Test.TestNGReg_Osgoftest">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="SetUpTest"/>
+          <include name="OsgofRegistrationpage"/>
+        </methods>
+      </class> <!-- Test.TestNGReg_Osgoftest -->
+    </classes>
+  </test> <!-- Test 1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
